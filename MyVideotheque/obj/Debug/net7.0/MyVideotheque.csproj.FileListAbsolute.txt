@@ -1,0 +1,12 @@
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\bin\Debug\net7.0\MyVideotheque.deps.json
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\bin\Debug\net7.0\MyVideotheque.dll
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\bin\Debug\net7.0\MyVideotheque.pdb
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.csproj.AssemblyReference.cache
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.AssemblyInfoInputs.cache
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.AssemblyInfo.cs
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.csproj.CoreCompileInputs.cache
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.dll
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\refint\MyVideotheque.dll
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\MyVideotheque.pdb
+C:\Users\flori\Documents\EPSI\C#\TP_Intero\MyVideotheque\obj\Debug\net7.0\ref\MyVideotheque.dll

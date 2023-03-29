@@ -1,0 +1,59 @@
+namespace MyvideothequeTests;
+
+[TestClass]
+public class Videotheque_GetMoviesByDirectorShould
+{
+    [TestMethod]
+    public void ReturnEmptyArray_WhenNoMoviesAdded()
+    {
+        // Arrange
+        Videotheque videotheque = new Videotheque();
+        string director = "James Cameron";
+
+        // Act
+        Movie[] moviesByDirector = videotheque.GetMoviesByDirector(director);
+
+        // Assert
+        Assert.AreEqual(0, moviesByDirector.Length);
+    }
+
+    [TestMethod]
+    public void ReturnMovies_WhenMoviesAdded()
+    {
+        // Arrange
+        Videotheque videotheque = new Videotheque();
+        videotheque.AddMovie("Avatar", "James Cameron", 2009, 7.8m);
+        videotheque.AddMovie("Titanic", "James Cameron", 1997, 8.5m);
+        string director = "James Cameron";
+
+        // Act
+        Movie[] moviesByDirector = videotheque.GetMoviesByDirector(director);
+
+        // Assert
+        Assert.AreEqual(2, moviesByDirector.Length);
+        Assert.AreEqual("Avatar", moviesByDirector[0].Title);
+        Assert.AreEqual("James Cameron", moviesByDirector[0].Director);
+        Assert.AreEqual(2009, moviesByDirector[0].ReleaseDate);
+        Assert.AreEqual(7.8m, moviesByDirector[0].Note);
+        Assert.AreEqual("Titanic", moviesByDirector[1].Title);
+        Assert.AreEqual("James Cameron", moviesByDirector[1].Director);
+        Assert.AreEqual(1997, moviesByDirector[1].ReleaseDate);
+        Assert.AreEqual(8.5m, moviesByDirector[1].Note);
+    }
+
+    [TestMethod]
+    public void ReturnNoMovies_WhenNoMoviesByDirector()
+    {
+        // Arrange
+        Videotheque videotheque = new Videotheque();
+        videotheque.AddMovie("Avatar", "James Cameron", 2009, 7.8m);
+        videotheque.AddMovie("Titanic", "James Cameron", 1997, 8.5m);
+        string director = "Steven Spielberg";
+
+        // Act
+        Movie[] moviesByDirector = videotheque.GetMoviesByDirector(director);
+
+        // Assert
+        Assert.AreEqual(0, moviesByDirector.Length);
+    }
+}
